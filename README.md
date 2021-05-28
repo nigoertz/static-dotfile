@@ -1,30 +1,20 @@
 # node-red-contrib-static
 
-#### This Node-RED node allows serving static files from local directories over HTTP/HTTPS.
+This Node-RED node allows serving static files from local directories over HTTP/HTTPS.
 
-<br/>
-<br/>
+![flow](flow.png)
 
 # Install
 
 `npm i node-red-contrib-static`
 
-<br/>
-<br/>
-
 # Use
 
 Input the directory path that will act as the root in the input field `folder`. NOTE: make sure to put a wildcard in the HTTP/HTTPS node path after the root url path, so that the file / directory names are passed to the static node. e.g.: `prefix/*`
 
-<br/>
-<br/>
-
 # LICENSE
 
-## [ISC](https://opensource.org/licenses/ISC)
-
-<br/>
-<br/>
+[ISC](https://opensource.org/licenses/ISC)
 
 # Contact
 
