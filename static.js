@@ -8,6 +8,7 @@ let StaticInitFunc = function (RED) {
     var folder = n.folder;
     var serve = serveStatic(folder, {
       index: ["index.html", "index.htm"],
+      dotfiles: "allow",
     });
 
     node.on("input", function (msg) {

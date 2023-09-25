@@ -1,5 +1,5 @@
 <script type="text/javascript">
-  RED.nodes.registerType("static", {
+  RED.nodes.registerType("static-dotfile", {
     category: "function",
     color: "#a6bbcf",
     defaults: {
@@ -10,12 +10,12 @@
     outputs: 1,
     icon: "file.png",
     label: function () {
-      return this.name || "static";
+      return this.name || "static-dotfile";
     },
   });
 </script>
 
-<script type="text/html" data-template-name="static">
+<script type="text/html" data-template-name="static-dotfile">
   <div class="form-row">
     <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
     <input type="text" id="node-input-name" placeholder="Name" />
@@ -26,6 +26,6 @@
   </div>
 </script>
 
-<script type="text/html" data-help-name="static">
+<script type="text/html" data-help-name="static-dotfile">
   <p>A simple node serves static files from a directory. Use a wildcard (*) in the proceeding "http in" node</p>
 </script>

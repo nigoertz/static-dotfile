@@ -1,16 +1,16 @@
 {
-  "name": "node-red-contrib-static",
+  "name": "node-red-contrib-dotfile-static",
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "node-red@digitalarsenal.io",
-  "license": "ISC",
+  "author": "",
+  "license": "",
   "node-red": {
     "nodes": {
-      "static": "static.js"
+      "static": "static-dotfile.js"
     }
   },
   "dependencies": {
