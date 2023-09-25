@@ -6,11 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "",
+  "author": "node-red@digitalarsenal.io",
+  "license": "ISC",
   "node-red": {
     "nodes": {
-      "static": "static-dotfile.js"
+      "static": "static.js"
     }
   },
   "dependencies": {
